@@ -44,7 +44,7 @@ To make Poppler accessible from anywhere:
 5. Click **New** and add the path to the `bin` folder inside the extracted Poppler directory  
    Example:  
    ```
-   C:\Tools\poppler-xxin
+   C:\Tools\poppler-xx.xx\Library\bin
    ```
 6. Click **OK** to close all dialogs
 
