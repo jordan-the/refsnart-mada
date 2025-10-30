@@ -2,9 +2,9 @@
 Add-Type -AssemblyName System.Windows.Forms
 
 # Define folder paths for source images, destination PDFs, and queued PDFs
-$sourceFolder = "C:\Users\jthe\Documents\Automation\pdf-extraction\temp"
-$destinationFolder = "C:\Users\jthe\Documents\Automation\pdf-extraction\output"
-$queueFolder = "C:\Users\jthe\Documents\Automation\pdf-extraction\queue"
+$sourceFolder = "C:\Your\File\Path"
+$destinationFolder = "C:\Your\File\Path"
+$queueFolder = "C:\Your\File\Path"
 
 # Process each PNG file in the source folder recursively
 Get-ChildItem -Path $sourceFolder -Filter *.png -Recurse | ForEach-Object {

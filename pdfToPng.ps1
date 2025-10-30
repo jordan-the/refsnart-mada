@@ -1,5 +1,5 @@
-$sourceFolder = "C:\Users\jthe\Documents\Automation\pdf-extraction\queue"
-$destinationFolder = "C:\Users\jthe\Documents\Automation\pdf-extraction\temp"
+$sourceFolder = "C:\Your\File\Path"
+$destinationFolder = "C:\Your\DestinationFile\Path"
 
 # Ensure output folder exists
 if (!(Test-Path $destinationFolder)) {
